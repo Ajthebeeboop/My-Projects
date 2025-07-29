@@ -1,0 +1,345 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <div>
+      <img id="header-img" src = "https://cdn-icons-png.flaticon.com/512/89/89762.png"
+      width = "40">
+      </div>
+      
+      <nav id="nav-bar">
+        <ul>
+        
+        <li><a class = "nav-link" href = "#Features">FEATURES</a></li>
+         <li><a class = "nav-link" href = "#Reviews">REVIEWS</a> </li>
+         <li><a class = "nav-link" href = "#Pricing">PRICING</a> </li>
+        </ul>
+      </nav>
+    </header>
+      <section class = "main-class">
+        
+       <img id = "main-image" src = "https://down-ph.img.susercontent.com/file/e623b50c3a8745c4ce0c9bc8120d0211" alt = "Umbrella"
+      loading="lazy">
+      <div id = "form-main">
+        <p>Welcome to SUNSHIELD!</p>
+        <p>Stay stylish and protected—rain or shine! ☀️🌧️
+Explore our range of UV umbrellas designed to block harmful rays while keeping you cool and comfortable. Choose the perfect size for your everyday adventure!
+</p>
+<p id = "nd">Want to keep in touch? Contact Us!
+</p>
+      
+      <form id="form" action ="https://www.freecodecamp.com/email-submit">
+      <h2>Enter your email</h2>
+         <input id="email" type = "email" name = "email" placeholder = "example@gmail.com" size = 25>
+         <input id="submit" type = "submit" value = "Get Started">
+      </form >
+      </div>
+      </section>
+      <section id = "Features">
+        <div>
+          <div class = "y-left">
+            <h2>UV Protection 𖤓</h2>
+             <p>Blocks up to 99% of harmful ultraviolet rays to protect your skin.</p>
+             <h2>Heat Reduction ⛱</h2>
+              <p>Reflective coating keeps you cooler by deflecting solar heat.</p>
+          </div>
+          <div class = "y-right">
+            <h2>Water-resistant fabric 𓄼𓄼𓄼</h2>
+            <p>Shields you from sudden rain with high-density waterproof material.</p>
+            <h2>Compact & Portable 𖠩</h2>
+            <p>Lightweight and foldable for easy storage in bags or backpacks.</p>
+          </div>
+    </div>
+      </section>
+      <section id = "Reviews">
+        <div>
+          <div class = "x-left">
+            <div>
+              <h1>Jane Doe</h1>
+              <p>★★★★☆</p>
+          <blockquote>"<i>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</i>"</blockquote>
+            </div>
+            <div>
+              <h1>Margaret Lorem</h1>
+              <p>★★★★☆</p>
+              <blockquote>"<i>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</i>"</blockquote>
+            </div>
+          </div>
+          <div class = "x-right">
+            <div>
+              <h1>Marry sum</h1>
+              <p>★★★★☆</p>
+              <blockquote>"<i>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</i>"</blockquote>
+            </div>
+            <div>
+              <h1>Dave Ip</h1>
+              <p>★★★★☆</p>
+              <blockquote>"<i>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</i>"</blockquote>
+            </div>
+          </div>
+         
+        </div>
+        <div></div>
+        <h1>How it works</h1>
+        <iframe width="440" height="240" id = "video"
+  src="https://www.youtube.com/embed/VAXZ-muiRWU" 
+  frameborder="0" ></iframe>
+      </section>
+      <section id="Pricing">
+        
+  <div class="Product">
+    <h3 class="title">Small Size</h3>
+    <h2>100 PHP</h2>
+    <ul>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+    </ul>
+    <button class="btn">Select</button>
+  </div>
+
+  <div class="Product">
+    <h3 class="title">Medium Size</h3>
+    <h2>200 PHP</h2>
+    <ul>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+    </ul>
+    <button class="btn">Select</button>
+  </div>
+
+  <div class="Product">
+    <h3 class="title">Large Size</h3>
+    <h2>300 PHP</h2>
+    <ul>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+      <li>Lorem Ipsum</li>
+    </ul>
+    <button class="btn">Select</button>
+  </div>
+</section>
+    <footer>
+      <ul>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+  <div class="copyright">© 2025 Sunshield Enterprises</div>
+    </footer>
+    
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+html{
+  font-family: sans-serif;
+}
+
+.main-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid;
+  gap: 40px; 
+}
+
+
+#main-image {
+  width: 45%;
+  max-width: 600px;
+  height: auto;
+}
+
+#form-main {
+  width: 45%;
+}
+
+
+#form-main p {
+  font-size: 40px;
+  text-align: justify;
+  padding-right: 10px;
+  
+}
+
+form{
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+Body{
+  background-color:#eee;
+  margin: 0px;
+  width: 100%;
+}
+header {
+  top: 0;
+  min-height: 50px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  margin: 0px;
+  position: sticky;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; 
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+
+.nav-link {
+  display: block;
+  padding: 8px;
+  border-left: 6px;
+  text-decoration: none;
+  color: White;
+}
+
+.nav-link:hover{
+  color: Black;
+  transition: 0.3s;
+}
+
+section{
+  text-align: center;
+}
+
+.y-left{
+  width: 50%;
+  float: left;
+  text-align: right;
+  text-indent: 5%;
+}
+.y-right{
+  width: 50%;
+  float: right;
+  text-align: left;
+  text-indent: 5%;
+}
+
+.x-left{
+  width: 50%;
+  float: left;
+  background-color: white;
+}
+
+.x-right{
+  width: 50%;
+  float: right;
+  background-color: white; 
+}
+
+.title{
+  font-size: 25px;
+}
+#Pricing {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.Product {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.Product ul{
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+iframe{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* spacing between links */
+  margin: 0;
+  padding: 0;
+  
+}
+
+footer a{
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+
+@media (max-width: 768px) {
+  .main-class {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #main-image,
+  #form-main {
+    width: 90%;
+  }
+  .y-left,.y-right{
+  text-align: center;
+}
+}
+
+
+
+** end of styles.css **
+
