@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkcalendar import Calendar
-import file as f
+import filewrite as f
 
 def clearing():
     e1.delete(0,END)
